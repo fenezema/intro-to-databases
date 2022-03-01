@@ -3,7 +3,7 @@
 ## What is?
 Relational Database are the databases that we (possibly) know first and the one that basically we learn first at college. In a very short term, a relational database is the one where the structure of the database is defined pre-development, whether it's the structure of the tables of one database, the indexes, and others. 
 
-## Language
+## Query Language
 Most Relational Databases use the Structured Query Language or SQL as we know it. Most of the time, SQL provides the same syntax, whatever the RDBMS are. 
 
 The query itself is pretty straighforward in term of syntax and readibility. The are many courses and tutorial about this now a days for SQL, whether it is a paid tutorial, like Udemy, Coursera, etc, or even the free one like, YouTube for example. 
@@ -32,6 +32,13 @@ Pretty simple and straightforward right?
 You can also check for other comparison methods.
 
 Not just that, there also other operations we can do in SQL, like join, where we can, as it says, join one table to the other table, etc.
+
+## ACID
+Four crucial properties define relational database transactions: atomicity, consistency, isolation, and durability—typically referred to as ACID.
+1. Atomicity defines all the elements that make up a complete database transaction.
+2. Consistency defines the rules for maintaining data points in a correct state after a transaction.
+3. Isolation keeps the effect of a transaction invisible to others until it is committed, to avoid confusion.
+4. Durability ensures that data changes become permanent once the transaction is committed.
 
 ## Examples
 There are many examples for RDBMS. Probably the one we heard all the time would be MySQL, or PostgreSQL. These two relational db are the most famous one. These relational databases are the one that maintained by the community, or we can say, that it is open source. There is also SQLite, that we can say is the most simple one. No tilitale when installing the tools, it's super straightforward. 
